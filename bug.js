@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API and attempting to access the `cameraRef` before it's fully mounted or initialized.  This commonly happens within the `useEffect` hook, if you try to use `cameraRef.current` before the component renders and assigns a value to `cameraRef`. 
